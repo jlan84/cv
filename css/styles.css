@@ -1,0 +1,39 @@
+/**************************** TAG SELECTORS ****************************/
+
+body {
+    background-color: #f5f4f4;
+}
+hr {
+    border: 5px;
+    border-style: none none dotted; /* top left/right bottom*/
+    color: #cae4db; 
+    background-color:  #f5f4f4;;
+    width: 50%
+}
+h1 {
+    color: #00587a;
+}
+h3 {
+    color: #00587a;
+}
+
+
+/******* CLASS SELECTORS: Use to apply to a group of related elements *******/
+/* you can have more than one class for an element eg. class="c1 c2"*/
+
+.profilePic {
+    height: 400px;
+    width: 380px;
+}
+
+/* :hover is a sudo tag and changes the properties when you hover the mouse*/
+.profilePic:hover {
+    height: 500px;
+    width: 475px;
+}
+
+/******************* ID SELECTORS: Use for a single element ***************/
+/* you can only have one id an element*/
+#Name {
+    color: #79a3b1;
+}
